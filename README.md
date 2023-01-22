@@ -15,7 +15,14 @@ Ejemplo de integración de storybook con React
 
 4. Cambiar el comando dev por el nuevo que añadio storybook dentro del package.json
 5. Cambiar el comando build por el nuevo que añadio storybook dentro del package.json
-6. Ejecutar el comando dentro del proyecto: _yarn storybook_
+6. Colocar una exportación dentro del main.tsx
+
+```
+Ejemplo de importación en main.tsx
+export { Button } from "./stories/Button";
+```
+
+7. Ejecutar el comando dentro del proyecto: _yarn dev_ o _yarn storybook_
 
 ### Subir a producción
 
