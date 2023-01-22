@@ -2,6 +2,21 @@
 
 Ejemplo de integración de storybook con React
 
+### Inicializar un proyecto con storybook en react
+
+1. Crear proyecto de React
+2. Limpiar proyecto de React, solo dejar el archivo src/main.tsx
+
+- Los siguientes pasos pueden variar dependiendo de versión y la documentación [Storybook](https://storybook.js.org/docs/react/get-started/install)
+
+3. Ejecutar el comando dentro del proyecto: _npx storybook init_
+
+- Una vez creados los archivos de configuración de storybook, continuar con lo siguiente:
+
+4. Cambiar el comando dev por el nuevo que añadio storybook dentro del package.json
+5. Cambiar el comando build por el nuevo que añadio storybook dentro del package.json
+6. Ejecutar el comando dentro del proyecto: _yarn storybook_
+
 ### Subir a producción
 
 1. Ejecutar comando: _yarn build_
