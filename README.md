@@ -39,3 +39,14 @@ export { Button } from "./stories/Button";
 5. Validar comando _chromatic_ dentro de package.json
 6. Ejecutar _yarn chromatic_
 7. Aceptar revisión de cambios
+
+## Paquete -> jlme-my-story-components
+
+Este paquete me sirve para practicar React Components + Storybook + NPM Publish
+
+```
+yarn add jlme-my-story-components
+```
+
+### Demo
+[Storybook Components](https://firststorybookjlme.netlify.app/)
